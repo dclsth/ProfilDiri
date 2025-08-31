@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.png"> <!-- Favicon -->
+    <title>Profil Diri</title> <!-- Judul halaman -->
+
+<style> /* Internal CSS */
+
+
+body {
+   background-image: url('background(3).jpeg');
+   background-repeat:round;
+   background-size: 100%;
+   color: #FFFBDE;
+   font-family: Montserrat;
+   font-size: 95%;
+
+}
+.profil-flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 100px;
+    
+}
+
+.foto-profil {
+    display: block;
+    width: 400px;
+    object-fit: cover;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-right: 50px;;
+    margin-left: 90px;
+}
+.profil-info {
+    flex: 1;    
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgba(50, 111, 171, 0.587);
+    text-align: justify;
+    padding: 20px;
+}
+
+#hobi {
+    width: 500px;
+    background-color: rgba(50, 111, 171, 0.587);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    font-size: 1.25em;
+    border-radius: 20px;
+    margin-top: -30px;
+    
+   
+}
+
+.media-sosial {
+    
+    width: 300px;
+    padding-bottom: 20px;
+    background-color: rgba(50, 111, 171, 0.587);
+    border-radius: 15px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    margin-top: 40px;
+}
+
+.line{
+    width: 350px;
+    height: 10px;
+    background-color: #2a66aeab;
+}
+
+.line2 {
+    width: 200px;
+    height: 7px;
+    background-color: #2a66aeab;
+    margin-bottom: 10px;
+    
+}
+
+a{
+    color: white;
+}
+
+a:hover {
+    color: #5abdffab;
+
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="profil-flex">
+            <img src="Fotodiri.png" alt="Foto Profil" class="foto-profil"> <!-- Foto diri -->
+            <div class="profil-info">
+        
+                <h1>Hi! Aku Dara Calistha Putri Kindy</h1>   <!-- Penggunaan h1 -->
+                <h3><em>Mahasiswi Politeknik Elektronika Negeri Surabaya</em></h3>  <!-- Penggunaan h3 -->
+                <p> <!-- Paragraf informasi diri -->
+                    Saya dari jurusan <u>D4 Teknik Informatika A</u> dan saya berasal dari <i>Surabaya</i>. 
+                    Saya sangat suka coding-coding karena saya sangat suka yang <i>challenging</i>! <!-- Penggunaan format teks -->
+                </p>
+            </div>
+        </div>
+        <!-- 3. Bagian Hobi -->
+        <div id="hobi">
+            <h2>My Hobbies</h2> <!-- Penggunaan h2 -->
+            <div class="line"></div>
+            <ul> <!-- Penggunaan list hobby -->
+                <li>Programming</li>
+                <li>Membaca Buku</li>
+                <li>Travelling</li>
+                <li>Bermain Game</li>
+                <li>Menonton Windah</li>
+            </ul>
+        </div>
+        <!-- 4. Bagian Media Sosial -->
+        <section>
+            <div class="media-sosial">
+                
+                <h2>My Social Media</h2>
+                <div class="line2"></div>
+                <a href="https://www.instagram.com/daraa.c_" target="_blank">Instagram</a> <!-- Link Media Sosial -->
+                <a href="https://www.tiktok.com/@pgnmkanmie" target="_blank">TikTok</a>
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
